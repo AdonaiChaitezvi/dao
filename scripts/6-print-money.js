@@ -3,7 +3,7 @@ import sdk from "./1-initialize-sdk.js";
 (async () => {
   try {
     // This is the address of our ERC-20 contract printed out in the step before.
-    const token = await sdk.getContract("INSERT_TOKEN_ADDRESS", "token");
+    const token = await sdk.getContract("0x2F718be00774Ef7b340E991922b734f7fb9cd8FC", "token");
     // What's the max supply you want to set? 1,000,000 is a nice number!
     const amount = 1_000_000;
     // Interact with your deployed ERC-20 contract and mint the tokens!
